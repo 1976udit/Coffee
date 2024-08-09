@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
 
         {/* copyright section  */}
-        <p className='text-white text-center mt-6 pt-6 border-t-2'>
+        <p className='text-white text-center mt-6 pt-3 border-t-2'>
               Copyright 2024 Coders Cafe. All Rights Reserved.
         </p>
 

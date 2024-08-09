@@ -21,6 +21,7 @@ const WhereToBuy = () => {
            <motion.div
             initial = {{opacity:0, y : 100}}
             whileInView={{opacity:1, y : 0}}
+            viewport={{once:true}}
             transition={{
              type : "spring",
              stiffness : 100,
@@ -34,6 +35,7 @@ const WhereToBuy = () => {
            <motion.div
             initial = {{opacity:0, y : 100}}
             whileInView={{opacity:1, y : 0}}
+            viewport={{once:true}}
             transition={{
              type : "spring",
              stiffness : 100,
@@ -47,6 +49,7 @@ const WhereToBuy = () => {
            <motion.button 
            initial = {{opacity:0, y : 100}}
            whileInView={{opacity:1, y : 0}}
+           viewport={{once:true}}
            transition={{
             type : "spring",
             stiffness : 100,
@@ -62,6 +65,7 @@ const WhereToBuy = () => {
           <motion.img
           initial = {{obacity:0, scale:0.5}}
           whileInView={{obacity:1, scale:1}} 
+          viewport={{once:true}}
           transition={{
             type : "spring",
             stiffness : 100,
