@@ -38,7 +38,7 @@ const WhereToBuy = () => {
              type : "spring",
              stiffness : 100,
              damping : 10,
-             delay : 0.4
+             delay : 0.3
             }}
            className='flex items-center gap-4'>
                <input type="text" placeholder='Country' className='input-style w-full '/>
@@ -51,7 +51,7 @@ const WhereToBuy = () => {
             type : "spring",
             stiffness : 100,
             damping : 10,
-            delay : 0.6
+            delay : 0.4
            }}
            className='primary-btn w-full'>
             Order Now

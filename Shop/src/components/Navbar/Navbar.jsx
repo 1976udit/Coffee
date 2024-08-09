@@ -17,7 +17,7 @@ const Navbar = ({sidebar,setSidebar}) => {
               damping : 10,
               delay : 0.2
             }}
-            className='text-2xl font-semibold'><span className='text-primary'>CODERS</span> CAFA.</motion.h1>
+            className='text-2xl font-semibold'><span className='text-primary'>CODERS</span> CAFE</motion.h1>
             {/* Menu section  */}
             <motion.div 
             initial={{opacity:0, y:-100}} 
