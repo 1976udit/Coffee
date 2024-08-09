@@ -2,6 +2,7 @@ import { delay, motion, stagger } from 'framer-motion'
 import React from 'react'
 import coffee1 from "../../assets/coffee1.png"
 import coffee3 from "../../assets/coffee3.png"
+import coffee2 from "../../assets/black.png"
 
 const Services = () => {
 
@@ -34,20 +35,23 @@ const Services = () => {
   const serviceData = [
     {
       id : 1,
+      added : "",
       image : coffee1,
       title : "Black Coffee",
       subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, optio."
     },
     {
       id : 2,
+      added : "",
       image : coffee3,
-      title : "Hot Coffee",
+      title : "cold Coffee" ,
       subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, optio."
     },
     {
       id : 3,
-      image : coffee1,
-      title : "cold Coffee",
+      added : "max-h-[200px]",
+      image : coffee2,
+      title : "Hot Coffee",
       subtitle : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, optio."
     }
   ]
@@ -92,8 +96,8 @@ const Services = () => {
             variants={cardVariants}
             initial = "hidden"
             whileInView={"visible"}
-            key={index} className='text-center p-4 space-y-6'> 
-              <img src={service.image} alt="" className='img-shadow2 max-w-[200px] mx-auto hover:scale-110 duration-300 cursor-pointer'/>
+            key={index} className="text-center p-4 space-y-6"> 
+              <img src={service.image} alt="" className={`img-shadow2 max-w-[200px] mx-auto hover:scale-110 duration-300 cursor-pointer ${service.added}`}/>
               <div className='space-y-2'>
                 <h1 className='text-2xl font-bold text-primary'>{service.title}</h1>
                 <p className='text-darkGary'>{service.subtitle}</p>

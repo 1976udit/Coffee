@@ -1,6 +1,6 @@
 import React from 'react'
 import bgImage from "../../assets/bg-slate.png";
-import coffeeMain from "../../assets/black.png"
+import coffeeMain from "../../assets/coffee_2-new.png"
 import Navbar from '../Navbar/Navbar';
 import {motion} from "framer-motion"
 import {FaFacebookF,FaTwitter,FaInstagram} from "react-icons/fa"
@@ -73,7 +73,7 @@ const Hero = () => {
             src={coffeeMain} alt="" className='relative z-40 h-[400px] md:h-[700px] img-shadow' />
 
             {/* orange ring circle  */}
-            <motion.div
+            {/* <motion.div
             initial={{opacity:0, y:100}} 
             animate={{opacity:1, y:0}}
             transition={{
@@ -82,8 +82,8 @@ const Hero = () => {
               damping : 10,
               delay : 0.8
             }}
-             className='h-[180px] w-[180px] absolute top-24 -right-16 border-primary border-[20px] rounded-full z-10'>
-            </motion.div>
+             className='h-[180px] w-[180px] absolute top-36 -right-20 border-primary border-[20px] rounded-full z-20'>
+            </motion.div> */}
 
             {/* {Dark Lovers } */}
             <motion.div
@@ -135,7 +135,7 @@ const Hero = () => {
           <motion.div
           initial={{x:"100%"}}
           whileInView={{x:0}}
-          className='absolute top-0 right-0 w-[100px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-10'>
+          className='absolute top-0 right-0 w-[100px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-50'>
       <div className='w-full h-full flex justify-center items-center'>
         <div className='flex flex-col justify-center items-center gap-6 text-white'>
           {/* line  */}
