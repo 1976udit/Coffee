@@ -82,7 +82,7 @@ const Hero = () => {
               damping : 10,
               delay : 0.8
             }}
-             className='h-[180px] w-[180px] absolute top-36 -right-20 border-primary border-[20px] rounded-full z-20'>
+             className='h-[180px] w-[180px] absolute top-32  border-primary border-[20px] rounded-full z-10'>
             </motion.div> */}
 
             {/* {Dark Lovers } */}

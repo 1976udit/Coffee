@@ -24,8 +24,9 @@ const AppBanner = () => {
                 <p className='text-center sm:px-20'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, vero!</p>
                 <motion.img
                  animate={{rotate : [0,360]}}
+                 viewport={{once:true}}
                  transition={{
-                  duration : 8,
+                  duration :10,
                   repeat : Infinity,
                   ease: "linear",
                   repeatType : 'loop'
